@@ -11,6 +11,7 @@
 		235A63271F66F646001EA3A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A63261F66F646001EA3A8 /* ViewController.swift */; };
 		235A63291F66F646001EA3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235A63281F66F646001EA3A8 /* Assets.xcassets */; };
 		235A632C1F66F646001EA3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235A632A1F66F646001EA3A8 /* Main.storyboard */; };
+		235A63361F66F7A3001EA3A8 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235A63351F66F7A3001EA3A8 /* CollectionViewItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		235A63281F66F646001EA3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235A632B1F66F646001EA3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		235A632D1F66F646001EA3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235A63351F66F7A3001EA3A8 /* CollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				235A63231F66F646001EA3A8 /* NSCollectionView */,
+				235A63341F66F77D001EA3A8 /* Supporting Files */,
 				235A63221F66F646001EA3A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,9 +58,26 @@
 				235A63241F66F646001EA3A8 /* AppDelegate.swift */,
 				235A63261F66F646001EA3A8 /* ViewController.swift */,
 				235A63281F66F646001EA3A8 /* Assets.xcassets */,
+				235A63331F66F76D001EA3A8 /* Resources */,
+			);
+			path = NSCollectionView;
+			sourceTree = "<group>";
+		};
+		235A63331F66F76D001EA3A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				235A63351F66F7A3001EA3A8 /* CollectionViewItem.xib */,
 				235A632A1F66F646001EA3A8 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		235A63341F66F77D001EA3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				235A632D1F66F646001EA3A8 /* Info.plist */,
 			);
+			name = "Supporting Files";
 			path = NSCollectionView;
 			sourceTree = "<group>";
 		};
@@ -122,6 +142,7 @@
 			files = (
 				235A63291F66F646001EA3A8 /* Assets.xcassets in Resources */,
 				235A632C1F66F646001EA3A8 /* Main.storyboard in Resources */,
+				235A63361F66F7A3001EA3A8 /* CollectionViewItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
